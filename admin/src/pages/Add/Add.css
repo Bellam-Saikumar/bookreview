@@ -1,0 +1,88 @@
+.add {
+  width: 100%;
+  max-width: 800px;
+  margin: 150px auto;
+  padding: 30px;
+  border: 1px solid #cfcfcf;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-call,
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-image-upload {
+  align-items: center;
+  text-align: center;
+}
+
+.add-image-upload img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 2px dashed #aaa;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.add-product-name input,
+.add-product-description textarea,
+.add-category-price input,
+.add-price input,
+.add-category select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.add-product-description textarea {
+  resize: vertical;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.add-category,
+.add-price {
+  flex: 1;
+}
+
+.add-price input {
+  width: 100%;
+}
+
+.add-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.add p {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}

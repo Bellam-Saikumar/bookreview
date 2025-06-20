@@ -1,0 +1,87 @@
+/* FeatureBooks.css */
+
+.featured-books {
+  padding: 30px 15px;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.featured-books h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 260px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+  width: 100%;
+  height: 20px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.book-info {
+  padding: 16px;
+  text-align: left;
+}
+
+.book-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.category {
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 12px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #f39c12;
+  font-weight: 600;
+}

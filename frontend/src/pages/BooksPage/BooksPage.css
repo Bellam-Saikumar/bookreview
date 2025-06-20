@@ -1,0 +1,80 @@
+.books-page {
+  padding: 30px;
+ width: 100%;
+  margin: auto;
+}
+
+.books-page h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Book Grid - 4 to 5 per row */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  
+}
+
+/* Individual Book Card */
+.book-card {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  height: auto;
+  width: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #222;
+}
+
+.book-card .author,
+.book-card .price,
+.book-card .category,
+.book-card .rating {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0;
+}
+
+
+.books-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.books-controls input {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.books-controls select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 160px;
+}
