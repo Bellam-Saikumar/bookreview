@@ -12,7 +12,7 @@ const BookDetailPage = () => {
   const [comment, setComment] = useState('');
   const [message, setMessage] = useState('');
   const [refreshReviews, setRefreshReviews] = useState(false);
-const url="http://localhost:4000";
+const url="https://bookreview-backend-q0jw.onrender.com";
   useEffect(() => {
     const fetchBook = async () => {
       try {
