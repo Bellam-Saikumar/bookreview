@@ -25,32 +25,32 @@ Error handling for all API routes
 ## 🧪 API Endpoints
 
 ### 📘 Book Endpoints
-GET /api/books — Retrieve all books (with pagination)
-GET /api/books/:id — Retrieve a single book
-POST /api/books — Add a new book (admin only)
+GET /api/books — Retrieve all books (with pagination) <br>
+GET /api/books/:id — Retrieve a single book <br>
+POST /api/books — Add a new book (admin only) <br>
 
 ### 📝 Review Endpoints
-GET /api/reviews?bookId=BOOK_ID — Get reviews for a book
-POST /api/reviews — Submit a new review
+GET /api/reviews?bookId=BOOK_ID — Get reviews for a book <br>
+POST /api/reviews — Submit a new review <br>
 
 ### 👤 User Endpoints
-GET /api/users/:id — Retrieve a user profile
-PUT /api/users/:id — Update a user profile
+GET /api/users/:id — Retrieve a user profile <br>
+PUT /api/users/:id — Update a user profile <br>
 
 ### ⚙️ Setup Instructions
-📌 Prerequisites
-Node.js and npm
-MongoDB (local or Atlas)
+📌 Prerequisites <br>
+Node.js and npm <br>
+MongoDB (local or Atlas) <br>
 Git
 
 ### 💻 Frontend Setup & Admin
-cd frontend/admin
-npm install
+cd frontend/admin <br>
+npm install <br>
 npm run dev
 
 ### 🛠️ Backend Setup
-cd backned
-npm install
+cd backned <br>
+npm install <br>
 npm start
 
 # 📷 Screenshots (Optional)
@@ -80,9 +80,9 @@ Include screenshots of your home page, book listing, book detail page, and revie
 ![Screenshot 2025-06-20 231639](https://github.com/user-attachments/assets/7c744f13-1bdf-405e-aefc-f0121f8abedc)
 
 # 🖥️ Live Demo
-🔗 Deployed App 
-https://bookreview-frontend-94pa.onrender.com/ & 
-https://bookreview-admin.onrender.com/add
+🔗 Deployed App <br>
+Frontend: https://bookreview-frontend-94pa.onrender.com/ <br>
+Admin: https://bookreview-admin.onrender.com/add
 
 
 
