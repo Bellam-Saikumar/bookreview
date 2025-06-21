@@ -9,7 +9,7 @@ function Navbar({ setShowLogin }) {
   const [menu, setMenu] = useState("home");
   const navigate = useNavigate();
   const { token, setToken } = useContext(StoreContext);
-
+//commit
   const handleLogout = () => {
     localStorage.removeItem("token");
     navigate('/');
