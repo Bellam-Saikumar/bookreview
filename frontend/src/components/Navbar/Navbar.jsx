@@ -53,7 +53,7 @@ function Navbar({ setShowLogin }) {
             <img src={assets.profile_icon} alt="Profile" />
             <ul className="nav-profile-drop">
               <li onClick={() => navigate("/profile")}>
-                <img src={assets.user_icon} alt="Profile" />
+                <img src={book_assets.user_icon} alt="Profile" />
                 <p>Profile</p>
               </li>
               <hr />

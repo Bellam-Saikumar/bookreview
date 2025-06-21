@@ -4,7 +4,7 @@ import facebook_icon from './facebook_icon.png';
 import twitter_icon from './twitter_icon.png';
 import linkedin_icon from './linkedin_icon.png';
 import comic_home from './comic_home.png'
-
+import user_icon from './user_icon.png'
 
 
 
@@ -14,6 +14,7 @@ export const book_assets = {
     facebook_icon,
     linkedin_icon,
     twitter_icon,
-    comic_home
+    comic_home,
+    user_icon
 
 };
