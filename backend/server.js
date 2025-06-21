@@ -5,7 +5,7 @@ import userRouter from './routes/userRoutes.js';
 import bookRouter from './routes/bookRoutes.js';
 import reviewRouter from './routes/reviewRoutes.js';
 import 'dotenv/config';
-const ALLOWED_ORIGINS=https://bookreview-frontend-94pa.onrender.com,https://bookreview-admin.onrender.com
+
 // App config
 const app = express();
 const port = process.env.PORT || 4000;
