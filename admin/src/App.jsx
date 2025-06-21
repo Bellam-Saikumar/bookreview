@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const url = 'http://localhost:4000';  // ✅ make sure this is active
+  const url = 'https://bookreview-backend-q0jw.onrender.com';  // ✅ make sure this is active
 
   return (
     <div>

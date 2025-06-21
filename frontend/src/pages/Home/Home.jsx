@@ -7,7 +7,7 @@ import FeatureBooks from "../../components/FeatureBooks/FeatureBooks";
 
 function Home() {
   const [category, setCategory] = useState("All");
-  const url = "http://localhost:4000"; 
+  const url = "https://bookreview-backend-q0jw.onrender.com"; 
 
   return (
     <div className="home">

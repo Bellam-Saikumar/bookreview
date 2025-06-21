@@ -12,7 +12,7 @@ import ProfilePage from './pages/Profile/ProfilePage';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
- const url="http://localhost:4000";
+ const url="https://bookreview-backend-q0jw.onrender.com";
 
   return (
     <>

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const BookReviews = ({ bookId, refresh }) => {
   const [reviews, setReviews] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://bookreview-backend-q0jw.onrender.com";
 
   useEffect(() => {
     const fetchReviews = async () => {
