@@ -56,7 +56,7 @@ npm start
 # 📷 Screenshots (Optional)
 Include screenshots of your home page, book listing, book detail page, and review submission form here.
 
-![Screenshot 2025-06-20 232107](https://github.com/user-attachments/assets/f3b62e09-e7de-4e5a-82eb-68d67583cbf5)
+![Screenshot 2025-06-20 233201](https://github.com/user-attachments/assets/1c6a603f-4469-42ca-bfce-0c9988a6466c)
 
 ![Screenshot 2025-06-20 231257](https://github.com/user-attachments/assets/ba60cd91-51e8-4c3e-8d12-c9b07f077aa0)
 
