@@ -81,8 +81,7 @@ Include screenshots of your home page, book listing, book detail page, and revie
 
 # 🖥️ Live Demo
 🔗 Deployed App <br>
-Frontend: https://bookreview-frontend-94pa.onrender.com/ <br>
-Admin: https://bookreview-admin.onrender.com/add
+Frontend: https://bookreview-frontend-94pa.onrender.com/
 
 
 
